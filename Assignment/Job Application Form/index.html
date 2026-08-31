@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Details</title>
+</head>
+
+<body>
+
+<center>
+    <i><h1>Job Details</h1></i>
+</center>
+
+<center>
+<form action="./feedback.html">
+
+<table border="15px" cellpadding="10px" color=center; border-collapse:collapse; font-family:Arial; ">
+
+<tr>
+    <td align="right">Job Title:</td>
+    <td>
+        <input type="text" name="jobtitle" required>
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Description:</td>
+    <td>
+        <textarea name="description" rows="4" cols="25"></textarea>
+        <br>
+        Brief Description should have almost 500 characters
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Company Name:</td>
+    <td>
+        <input type="text" name="company" required>
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Contact number:</td>
+    <td>
+        <input type="number" name="contact" required>
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Contact person:</td>
+    <td>
+        <input type="text" name="person" required>
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Email:</td>
+    <td>
+        <input type="email" name="email" required>
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Work Status</td>
+    <td>
+        <input type="radio" name="status"> Full Time
+        <input type="radio" name="status"> Part Time
+        <input type="radio" name="status"> Per Diem
+        <input type="radio" name="status"> Others
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Salary:</td>
+    <td>
+        <input type="number" name="salary" required>
+
+        <select name="currency">
+            <option>US Dollar</option>
+            <option>Euro</option>
+            <option>Pakistani Rupee</option>
+        </select>
+
+        <select name="salarytype">
+            <option>Yearly</option>
+            <option>Monthly</option>
+            <option>Hourly</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Experience(Years):</td>
+    <td>
+        <input type="number" name="experience" required>
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Locations:</td>
+    <td>
+        <input type="text" name="location" required>
+    </td>
+</tr>
+
+<tr>
+    <td align="right">Qualifications:</td>
+    <td>
+
+        <select name="qualification" multiple size="4" required>
+            <option>Any</option>
+            <option>High School</option>
+            <option>Associate</option>
+            <option>Pre Bachelors</option>
+        </select>
+
+        <input type="button" value="ADD>>">
+        
+        <input type="button" value="<<Remove">
+
+        <select name="selected" size="4">
+            <option>Any</option>
+        </select>
+
+    </td>
+</tr>
+
+<tr>
+    <td></td>
+    <td>
+       
+        <br><input align="center" type="reset" value="Reset">
+        
+       <input align="center" type="image" src="./assets/submit-button-png-4.jpg#" alt="Submit" width="90px" height="90px">
+       
+       
+    </td>
+</tr>
+
+</table>
+
+</form>
+</center>
+
+
+</body>
+</html>
